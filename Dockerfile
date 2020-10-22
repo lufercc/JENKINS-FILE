@@ -14,4 +14,4 @@ RUN echo $PATH
 EXPOSE 7070
 
 ENTRYPOINT ["gradle", "clean"]
-CMD ["executeFeatures"]
+CMD ["uiTest"]
